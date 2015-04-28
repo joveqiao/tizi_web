@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/x-image" href="static/tiziico.png">
+		<title>tizi,最好用的翻墙解决方案</title>
+		<style>
+		</style>
+		<link rel="stylesheet" href="static/animate.css" charset="UTF-8" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" charset="UTF-8" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" charset="UTF-8" />
+		<link rel="stylesheet" href="static/tizi_all.css" charset="UTF-8" />
+	</head>
+
+	<body class="chinese">
+		<div id="wrapper">
+			<div class="masthead comtainheit">
+				<div class="topline"></div>
+				<div class="useroption">
+					<div class="nowrap"><%= user.email%></div>
+					<div class="settingico"><i class="fa fa-cog"></i>
+					</div>
+				</div>
+				<div class="settingoption" style="display: none;">
+					<a href="">帐号管理</a>
+					<a href="/signout" rel="nofollow">退出登录</a>
+					<a href="">站内通知&nbsp;&nbsp;&nbsp;&nbsp;
+						<span class="notification"><i class="fa fa-bell-o bell shake animated"></i>&nbsp;<span class="notice">1</span></span></a>
+					<a style="margin-top: 10px;" href="">反馈建议</a>
+					
+				</div>
+				<div class="clearfix"></div>
+				<div class="logoline">
+					<div class="logocont">
+						<a href="">
+							<img src="static/tizi.480.png" />
+						</a>
+						<p>爬出墙，让你的世界自由呼吸！</p>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="topmenucont">
+					<div class="tabs tabs-style-topline">
+						<nav>
+							<ul>
+								<li class="tab-current"><a href="#section-topline-1" class="icon icon-home "><span>&nbsp;&nbsp;&nbsp;服务</span>&nbsp;<span class="servicesstop"></span></a>
+								</li>
+								<li><a href="#section-topline-2" class="icon icon-credit"><span>历史订单</span></a>
+								</li>
+								<li><a href="#section-topline-4" class="icon icon-gift"><span>分享给好友</span></a>
+								</li>
+								<li><a href="#section-topline-5" class="icon icon-config"><span>多终端 配置讲解</span></a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="serviceshow animated  bounce ">
+					<!--服务--><span style="color:#333;">帐号：</span> joveqiao@qq.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#333;">服务：</span> 通用型 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#333;">服务期：</span>					<span style="color:#3c763d;">23小时57分</span>&nbsp;<span style="color:#999;">后到期</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#555;">VIP等级： V1</span>&nbsp;<span title="到达下一等级还需 30 小时" class="viplevelo"><span title="已开通 20 小时" class="vipleveli"></span></span>
+				</div>
+				<div class="serviceshow stop animated  bounce ">
+					<!--服务已过期--><span>帐号：</span> <span class="acount">joveqiao@qq.com</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#333;">服务：</span> 未开通 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span
+					style="color:#333;">服务期：</span> 已到期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#555;">VIP等级： V1</span>&nbsp;<span title="到达下一等级还需 30 小时"
+						class="viplevelo"><span title="已开通 20 小时" class="vipleveli"></span></span>
+				</div>
+				<div class="serverschoise">
+					<div class="optioncont">
+						<div style="text-align: left;width: 600px;height: 40px;float: left;">
+							<a class="serit senior">资深型</a>
+							<a class="serit junior activeon">通用型</a>
+						</div>
+
+						<button class="btn btn-default btn-sm pull-right color-tran" style="height: 38px;">
+							输入活动优惠码 <i class="fa fa-gift"></i>
+						</button>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="serverpayopt">
+					<div class="optioncont">
+						<h2 style="font-size: 25px;margin-bottom: 25px;color: #efefef;">请挑选你所中意的费用套餐：</h2>
+						<div class="serversoptpanel" id="choice1">
+							<div class="panelone">
+								<div class="optcontainer">
+									<span class="label label-info">入手体验</span>
+									<h3>体验会员</h3>
+									<span class="price">
+					                    <small>￥</small>
+					                    2
+					                </span>
+									<small class="duration">24小时</small>
+
+									<a href="" target="_blank" class="pay btn btn-block btn-primary">
+				                 		续费
+				                 		<i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 2px;margin-left: -50px;"></i>
+				                    </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+									</ul>
+									<a href="" target="_blank" style="float:left;margin-top: -30px;">翻墙后能做什么？</a>
+								</div>
+
+							</div>
+							<div class="panelone">
+								<div class="optcontainer suggest">
+									<span class="label label-danger ng-binding">省 10 元</span>
+
+									<h3>年费会员</h3>
+									<span class="price ng-binding">
+                    <small>￥</small>
+                    99
+                </span>
+									<small class="duration">360天</small>
+
+									<a href="/pay/transfer?name=joveqiao@qq.com&amp;trade_type=360&amp;coupon_code=" ng-click="choosePlan(360, $event)" target="_blank" class="pay btn btn-block btn-success">
+                    续费
+                    <i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 3px;margin-left: -50px;"></i>
+                </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="严格限定单台服务器用户数，保证服务器有大量的空闲带宽" class="ng-scope">
+                            <b>限量专属服务器</b>
+                        </span>
+										</li>
+										<li>
+											&nbsp;
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="panelone">
+								<div class="optcontainer">
+									<span class="label label-info">最多人的选择</span>
+
+									<h3>月费会员</h3>
+									<span class="price ng-binding">
+                    <small>￥</small>
+                    9
+                </span>
+									<small class="duration">30天</small>
+
+									<a href="/pay/transfer?name=joveqiao@qq.com&amp;trade_type=30&amp;coupon_code=" ng-click="choosePlan(30, $event)" target="_blank" class="pay btn btn-block btn-primary">
+                    续费
+                    <i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 3px;margin-left: -50px;"></i>
+                </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="严格限定单台服务器用户数，保证服务器有大量的空闲带宽" class="ng-scope">
+                            <b>限量专属服务器</b>
+                        </span>
+										</li>
+										<li>&nbsp;</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<div style="display: none;" class="serversoptpanel" id="choice2">
+							<div class="panelone">
+								<div class="optcontainer tuhaojin">
+									<span class="label label-info">入手体验</span>
+									<h3>体验会员</h3>
+									<span class="price">
+					                    <small>￥</small>
+					                    3
+					                </span>
+									<small class="duration">24小时</small>
+
+									<a href="" target="_blank" class="pay btn btn-block btn-primary">
+				                 		续费
+				                 		<i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 2px;margin-left: -50px;"></i>
+				                    </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+									</ul>
+									<a href="" target="_blank" style="float:left;margin-top: -30px;">翻墙后能做什么？</a>
+								</div>
+
+							</div>
+							<div class="panelone">
+								<div class="optcontainer suggest2 tuhaojin">
+									<span class="label label-danger ng-binding">省 10 元</span>
+
+									<h3>年费会员</h3>
+									<span class="price ng-binding">
+                    <small>￥</small>
+                    199
+                </span>
+									<small class="duration">360天</small>
+
+									<a href="/pay/transfer?name=joveqiao@qq.com&amp;trade_type=360&amp;coupon_code=" ng-click="choosePlan(360, $event)" target="_blank" class="pay btn btn-block btn-success">
+                    续费
+                    <i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 3px;margin-left: -50px;"></i>
+                </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="严格限定单台服务器用户数，保证服务器有大量的空闲带宽" class="ng-scope">
+                            <b>限量专属服务器</b>
+                        </span>
+										</li>
+										<li>
+											&nbsp;
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="panelone">
+								<div class="optcontainer tuhaojin">
+									<span class="label label-info">最多人的选择</span>
+
+									<h3>月费会员</h3>
+									<span class="price ng-binding">
+                    <small>￥</small>
+                    19
+                </span>
+									<small class="duration">30天</small>
+
+									<a href="/pay/transfer?name=joveqiao@qq.com&amp;trade_type=30&amp;coupon_code=" ng-click="choosePlan(30, $event)" target="_blank" class="pay btn btn-block btn-primary">
+                    续费
+                    <i class="glyphicon glyphicon-chevron-right pull-right" style="margin-right:20px;margin-top: 3px;margin-left: -50px;"></i>
+                </a>
+
+									<hr>
+									<ul>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="可将任何网站加入科学上网列表" class="ng-scope">
+                            不限制使用的域名
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="开启后，上任何网站都使用红杏" class="ng-scope">
+                            开放“一直”模式
+                        </span>
+										</li>
+										<li>
+											<i class="glyphicon glyphicon-ok text-success"></i>
+											<span tooltip="严格限定单台服务器用户数，保证服务器有大量的空闲带宽" class="ng-scope">
+                            <b>限量专属服务器</b>
+                        </span>
+										</li>
+										<li>&nbsp;</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="pcenter">
+					<p style="font-size: 15px;">
+						遵守<a href="" target="_blank">梯子准则</a>，请远离不良信息。
+					</p><span>(c) Copyright 2015 Tizi.in &nbsp;All Rights Reserved.</span>
+				</div>
+			</div>
+		</div>
+		<script src="static/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="static/jquery.mousewheel.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="static/tizi_auth.js" type="text/javascript" charset="UTF-8"></script>
+	</body>
+
+</html>
